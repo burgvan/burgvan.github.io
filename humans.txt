@@ -1,0 +1,28 @@
+# humanstxt.org
+
+#TEAM
+
+Designer & Developer: Vanessa Burguete
+Site: http://vburguetedesign.ca
+Github: http://github.com/burgvan
+Twitter: @nessaburg
+Email: vanessa.burguete@vburguetedesign.ca
+
+---
+
+# THANKS
+
+Mihai Buricea (http://scriptpie.com)
+Released under CodeCanyon License http://codecanyon.net/licenses (Cube Portfolio)
+
+
+Vojtech Šebo
+vxs@klikni.cz
+
+
+
+---
+
+# TECHNOLOGY COLOPHON
+
+HTML5, CSS3, Normalize.css, jQuery, Modernizr, Ajax, Picturefill.js, Cubeportfolio.js
