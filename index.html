@@ -276,6 +276,8 @@
       <script src="js/main.min.js"></script>     
       <script src="js/modernizr.custom.79639.js"></script>
       <script src="js/picturefill.min.js"></script>
+      <script src="js/jquery.nicescroll.min.js"></script>
+      <script src="js/jquery.nicescroll.js"></script>
       <script>
 
           function autoResizeDiv()
@@ -289,6 +291,7 @@
               $('#status').fadeOut(); 
               $('#preloader').delay(350).fadeOut('slow'); 
               $('body').delay(350).css({'overflow':'visible'});
+              $("html, .cbp-popup-wrap").niceScroll();
           })
       </script> 
   </body>
