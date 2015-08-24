@@ -23,7 +23,7 @@
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="shortcut icon" href="favicon.ico">
-  <script src="js/modernizr.custom.js"></script>  
+  <script src="js/modernizr.custom.50623.js"></script>  
   </head>   
   <body class="demo-juicy-projects">
 
@@ -272,6 +272,11 @@
       <script src="js/main.min.js"></script>
       <script src="js/modernizr.custom.50623.js"></script>
       <script src="js/picturefill.min.js"></script>
+      <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+      </script>
+      <script src="js/picturefill.min.js" async></script>      
       <script>
 
           function autoResizeDiv()
