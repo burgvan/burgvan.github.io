@@ -80,10 +80,10 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 html {
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
 }
 html,
 body {
@@ -91,16 +91,16 @@ body {
     overflow-y: scroll;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    color: #4f4f4f
+    color: #4f4f4f;
 }
 body {
-    overflow: hidden
+    overflow: hidden;
 }
 h2 {
     font-size: 4em;
     font-family: 'Droid Sans', serif;
     font-weight: 700;
-    margin-top: 0
+    margin-top: 0px;
 }
 #preloader {
     position: fixed;
@@ -109,7 +109,7 @@ h2 {
     right: 0;
     bottom: 0;
     background-color: #f2f2f2;
-    z-index: 999
+    z-index: 999;
 }
 #status {
     width: 200px;
@@ -120,15 +120,15 @@ h2 {
     background-image: url(img/status.gif);
     background-repeat: no-repeat;
     background-position: center;
-    margin: -100px 0 0 -100px
+    margin: -100px 0 0 -100px;
 }
 a,
 a:active {
-    color: #04c3b1
+    color: #04c3b1;
 }
 a:hover,
 a:focus {
-    text-decoration: none
+    text-decoration: none;
 }
 
 #navigation {
@@ -394,9 +394,9 @@ header p {
     margin: 0
 }
 #main {
-    background: none repeat scroll 0 0 #f2f2f2;
+    background: none repeat scroll 0px 0px #f2f2f2;
     position: relative;
-    width: 100%
+    width: 100%;
 }
 #content {
     background-image: url(img/portfolio.png);
@@ -416,21 +416,21 @@ header p {
 }
 #content img {
     border-left: 5px solid #04c3b1;
-    margin: 15px 0 -5px 0;
-    max-width: 100%
+    margin: 15px 0px -5px 0px;
+    max-width: 100%;
 }
 #headlines-about {
     line-height: 0;
     padding-right: 25px;
     margin-top: 21px;
-    color: #32323c
+    color: #32323c;
 }
 #headlines-resume {
     color: #32323c;
     margin-top: -19px;
     padding-right: 25px;
     float: left;
-    width: 300px
+    width: 300px;
 }
 #headlines-resume p {
     font-size: 1.75em;
@@ -438,19 +438,19 @@ header p {
     font-family: 'Droid Sans', serif;
     line-height: 1.5em;
     padding: 10px 10px 18px 0;
-    margin: 0
+    margin: 0;
 }
 #headlines-portfolio {
     line-height: 0;
     margin-top: 21px;
-    color: #f2f2f2
+    color: #f2f2f2;
 }
 #headlines-contact {
     line-height: 0;
     color: #32323c;
     margin-top: 21px;
     padding-right: 25px;
-    float: left
+    float: left;
 }
 #about-me-box {
     width: 48%;
@@ -462,7 +462,7 @@ header p {
     border-left: 5px solid #04c3b1;
     font-family: sans-serif;
     padding-top: 1px;
-    width: 478px
+    width: 478px;
 }
 .skills-line {
     background-color: #04c3b1;
@@ -481,16 +481,16 @@ header p {
   white-space: nowrap;
 }
 .skills-line span {
-    padding-left: 5px
+    padding-left: 5px;
 }
 #line-1 {
-    width: 0
+    width: 0px;
 }
 #line-2 {
-    width: 0
+    width: 0px;
 }
 #line-3 {
-    width: 0
+    width: 0px;
 }
 #content1 {
     background-image: url(img/work.png);
@@ -514,21 +514,21 @@ header p {
 #footer-info {
     max-width: 850px;
     margin: 0 auto;
-    width: 100%
+    width: 100%;
 }
 #about {
     width: 850px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 #resume-box {
     width: 64%;
     float: left;
     padding: 0 0 0 25px;
     border-left: 5px solid #04c3b1;
-    color: #32323c
+    color: #32323c;
 }
 #contact p {
-    line-height: 1.5em
+    line-height: 1.5em;
 }
 .elipses {
     border-radius: 50%;
@@ -536,14 +536,14 @@ header p {
     height: 18px;
     margin-left: -37px;
     margin-bottom: -10px;
-    width: 18px
+    width: 18px;
 }
 .elipses.last {
-    margin-bottom: 0
+    margin-bottom: 0px;
 }
 .selection-resume {
     margin-top: -2px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 .icons {
     background-color: #04c3b1;
@@ -553,20 +553,20 @@ header p {
     float: left;
     font-size: .8em;
     margin-left: -43px;
-    margin-top: -16px
+    margin-top: -16px;
 }
 .selection-resume .fa {
     font-size: 1.5em;
     margin-top: 6px !important;
     margin-left: 5px;
-    color: #32323c
+    color: #32323c;
 }
 .selection-resume .fa-graduation-cap {
     margin-top: 10px !important;
-    margin-left: 3.5px
+    margin-left: 3.5px;
 }
 .selection-resume .fa-file-text {
-    margin-left: 7.5px
+    margin-left: 7.5px;
 }
 .year {
     font-size: 1.2em;
@@ -574,27 +574,27 @@ header p {
     margin-top: -11px;
     position: absolute;
     color: #f2f2f2;
-    font-weight: 700
+    font-weight: 700;
 }
 .company {
     color: #04c3b1;
     font-size: 1em;
     font-weight: 700;
     line-height: 0;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .position {
     font-weight: 700;
-    font-size: 1em
+    font-size: 1em;
 }
 .description {
-    font-size: 1em
+    font-size: 1em;
 }
 .last-description {
-    margin-bottom: 0
+    margin-bottom: 0px;
 }
 .last-selection {
-    padding-bottom: 3px
+    padding-bottom: 3px;
 }
 #content2 {
     background-image: url(img/portfolio.png);
@@ -614,7 +614,7 @@ header p {
 }
 #gallery {
     font-size: .8em;
-    min-height: 290px
+    min-height: 290px;
 }
 span.roll {
     background-color: #5adae2;
@@ -622,20 +622,20 @@ span.roll {
     position: absolute;
     width: 206px;
     z-index: 10;
-    border-radius: 90%
+    border-radius: 90%;
 }
 .roll i {
     font-size: 3em;
     color: black;
     margin-left: 84px;
-    margin-top: 61px
+    margin-top: 61px;
 }
 .caption {
     text-align: center;
     color: black;
     width: 150px;
     margin: 0 auto;
-    margin-top: 12px
+    margin-top: 12px;
 }
 #content3 {
     background-color: #f2f2f2;
@@ -658,26 +658,26 @@ textarea {
     width: 445px;
     letter-spacing: -1px;
     outline: 0;
-    padding: 15px
+    padding: 15px;
 }
 .input {
     font-size: 1.2em;
-    color: #4f4f4f
+    color: #4f4f4f;
 }
 textarea {
     height: 150px;
     resize: none;
     font-size: 1.2em;
     color: #4f4f4f;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
 }
 body {
-    -webkit-text-size-adjust: none
+    -webkit-text-size-adjust: none;
 }
 input,
 textarea {
     -webkit-appearance: none;
-    border-radius: 0
+    border-radius: 0px;
 }
 #submit {
     padding: 15px;
@@ -686,7 +686,7 @@ textarea {
     color: #f2f2f2;
     font-weight: 700;
     font-size: 1.1em;
-    outline: 0
+    outline: 0;
 }
 #submit:hover {
     background-color: #f2f2f2;
@@ -696,20 +696,20 @@ textarea {
     -ms-transition: all .5s ease 0;
     -o-transition: all .5s ease 0;
     transition: all .5s ease 0;
-    cursor: pointer
+    cursor: pointer;
 }
 #p-submit {
-    margin-bottom: 1px
+    margin-bottom: 1px;
 }
 .email-erorr,
 .name-erorr,
 .message-erorr {
     position: relative;
     color: #4cd2da;
-    line-height: 16px
+    line-height: 16px;
 }
 .email-erorr {
-    font-style: italic
+    font-style: italic;
 }
 .name-erorr {
     font-style: italic
@@ -739,7 +739,7 @@ textarea {
     padding: 8px 0 0 0;
     color: #fff;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 #footer-info {
     width: 850px;
@@ -872,7 +872,7 @@ textarea {
     content: '';
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
-    box-sizing: content-box
+    box-sizing: content-box;
 }
 .hi-icon:before {
     speak: none;
@@ -994,10 +994,10 @@ textarea {
         line-height: 60px
     }
     #nav {
-        cursor: pointer
+        cursor: pointer;
     }
     #home-screen {
-        position: relative
+        position: relative;
     }
     header {
         font-size: 1.5em;
@@ -1005,31 +1005,31 @@ textarea {
         padding-left: 10px;
         padding-right: 10px;
         top: 33% !important;
-        animation: mymove 0 ease-in;
-        -webkit-animation: mymove 0 ease-in 1;
-        -moz-animation: mymove 0 ease-in 1;
-        -o-animation: mymove 0 ease-in 1;
-        -ms-animation: mymove 0 ease-in 1
+        animation: mymove 0s ease-in;
+        -webkit-animation: mymove 0s ease-in 1s;
+        -moz-animation: mymove 0s ease-in 1s;
+        -o-animation: mymove 0s ease-in 1s;
+        -ms-animation: mymove 0s ease-in 1s;
     }
     header p {
         line-height: 1.25em
     }
     .hi-icon-wrap {
-        top: 48%
+        top: 48%;
     }
     .arrow {
-        bottom: 80px
+        bottom: 80px;
     }
     #main {
-        background: 0;
-        padding-left: 0;
-        padding-right: 0
+        background: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #content,
     #content1,
     #content2,
     #content3 {
-        padding: 100px 0px 100px 0px !important
+        padding: 100px 0px 100px 0px !important;
     }
     #about,
     #resume,
@@ -1037,7 +1037,7 @@ textarea {
     #contact,
     #footer-info {
         width: 85%;
-        margin: 0 auto
+        margin: 0 auto;
     }
     #headlines-resume,
     #headlines-about,
@@ -1045,39 +1045,39 @@ textarea {
     #headlines-contact {
         text-align: left;
         margin-top: 0;
-        width: 100%
+        width: 100%;
     }
     #about-me-box {
         width: 100%;
-        margin-top: 0
+        margin-top: 0px;
     }
     #skills {
         width: 120%;
         max-width: 737px;
-        min-width: 257px
+        min-width: 257px;
     }
     #line-1 {
-        margin-top: 25px
+        margin-top: 25px;
     }
     #resume-box {
         width: 100%;
-        padding-top: 23px
+        padding-top: 23px;
     }
     .icons {
-        margin-top: -6px
+        margin-top: -6px;
     }
     .company {
-        line-height: 17px
+        line-height: 17px;
     }
     .year {
-        display: none
+        display: none;
     }
     #gallery {
-        width: 100%
+        width: 100%;
     }
     .input,
     textarea {
-        width: 100%
+        width: 100%;
     }
     #submit {
         padding: 15px !important;
@@ -1087,23 +1087,23 @@ textarea {
         font-weight: 700 !important;
         font-size: 1.1em !important;
         outline: none !important;
-        border-radius: 0 !important
+        border-radius: 0 !important;
     }
     #success {
         margin-top: 0;
-        margin-left: 0
+        margin-left: 0;
     }
     #download {
-        display: none
+        display: none;
     }
     #social-icons {
-        padding-right: 10px
+        padding-right: 10px;
     }
     .title {
-        display: none
+        display: none;
     }
     #navLogo {
-        width: 73px
+        width: 73px;
     }
 }
 @media screen and (min-width: 750px) and (max-width: 860px) {
@@ -1116,7 +1116,7 @@ textarea {
         -webkit-animation: mymove 0 ease-in 1;
         -moz-animation: mymove 0 ease-in 1;
         -o-animation: mymove 0 ease-in 1;
-        -ms-animation: mymove 0 ease-in 1
+        -ms-animation: mymove 0 ease-in 1;
     }
     .hi-icon-wrap {
         top: 55% !important;
@@ -1124,10 +1124,10 @@ textarea {
         -webkit-animation: mymove 0 ease-in 1;
         -moz-animation: mymove 0 ease-in 1;
         -o-animation: mymove 0 ease-in 1;
-        -ms-animation: mymove 0 ease-in 1
+        -ms-animation: mymove 0 ease-in 1;
     }
     header {
-        top: 50%
+        top: 50%;
     }
     #about,
     #resume,
@@ -1176,7 +1176,7 @@ textarea {
     cursor: pointer;
     top: 0;
     left: 0;
-    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -1199,7 +1199,7 @@ textarea {
     -o-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
 }
 .ch-info h3 {
     color: #fff;
@@ -1209,7 +1209,7 @@ textarea {
     margin: 0 30px;
     padding: 45px 0 8px 0;
     font-family: 'Open Sans', Arial, sans-serif;
-    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3)
+    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 .ch-info p {
     color: #fff;
@@ -1235,19 +1235,19 @@ textarea {
     font-size: 11px;
     letter-spacing: 1px;
     padding-top: 0;
-    font-family: 'Open Sans', Arial, sans-serif
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 .ch-info p a:hover,
 .ch-info p a:active,
 .ch-info p a:focus,
 .ch-item-active .chi-info p a {
     color: #fff222;
-    color: rgba(255, 242, 34, 0.8)
+    color: rgba(255, 242, 34, 0.8);
 }
 .ch-item:hover,
 .ch-item:active,
 .ch-item:focus {
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1)
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 .ch-item:hover .ch-info,
 .ch-item:active .ch-info,
@@ -1258,13 +1258,13 @@ textarea {
     -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    opacity: 1
+    opacity: 1;
 }
 .ch-item:hover .ch-info p,
 .ch-item:active .ch-info p,
 .ch-item:focus .ch-info p,
 .ch-item-active .ch-info p {
-    opacity: 1
+    opacity: 1;
 }
 .cbp,
 .cbp *,
@@ -1284,30 +1284,30 @@ textarea {
 .cbp-popup-wrap * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 .cbp-l-grid-projects-title,
 .cbp-l-grid-projects-desc,
 .cbp-l-grid-blog-title {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 .cbp,
 .cbp-wrapper,
 .cbp-item {
-    filter: inherit
+    filter: inherit;
 }
 .cbp {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
     height: 400px;
-    visibility: visible !important
+    visibility: visible !important;
 }
 .cbp-item {
     float: left;
-    margin-right: 10px
+    margin-right: 10px;
 }
 .cbp-wrapper,
 .cbp .cbp-item {
@@ -1317,67 +1317,67 @@ textarea {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
 }
 .cbp .cbp-item {
     z-index: 2;
     display: block;
     width: 300px;
-    height: 200px
+    height: 200px;
 }
 .cbp-item-wrapper {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0
+    left: 0;
 }
 .cbp img,
 .cbp-popup-singlePage img {
     display: inline-block;
     width: 100%;
-    height: auto
+    height: auto;
 }
 .cbp a,
 .cbp a:hover,
 .cbp a:active {
-    text-decoration: none
+    text-decoration: none;
 }
 .cbp-loading,
 .cbp-loading *,
 .cbp-no-transition .cbp-item {
     -webkit-transition: none !important;
-    transition: none !important
+    transition: none !important;
 }
 .cbp-appendItems-loading {
     -webkit-transition: height .4s ease !important;
-    transition: height .4s ease !important
+    transition: height .4s ease !important;
 }
 .cbp-appendItems-loading .cbp-wrapper {
     -webkit-transition: none !important;
-    transition: none !important
+    transition: none !important;
 }
 .cbp-loading {
-    background: url("img/cbp-loading.gif") no-repeat scroll center center transparent
+    background: url("img/cbp-loading.gif") no-repeat scroll center center transparent;
 }
 .cbp .cbp-item-hidden {
     pointer-events: none;
-    z-index: 1
+    z-index: 1;
 }
 .cbp-wrapper {
     visibility: hidden;
     width: 100%;
     height: 100%;
-    z-index: 1
+    z-index: 1;
 }
 .cbp-ready .cbp-wrapper {
-    visibility: visible
+    visibility: visible;
 }
 .cbp-wrapper-front {
-    z-index: 3
+    z-index: 3;
 }
 .cbp-wrapper-back {
-    z-index: -1
+    z-index: -1;
 }
 .cbp-caption,
 .cbp-caption-defaultWrap,
@@ -1386,24 +1386,24 @@ textarea {
     height: 100%;
     overflow: hidden;
     position: relative;
-    display: block
+    display: block;
 }
 .cbp-caption-defaultWrap,
 .cbp-caption-activeWrap {
     position: absolute;
-    z-index: 1
+    z-index: 1;
 }
 .cbp-caption-activeWrap {
-    z-index: 2
+    z-index: 2;
 }
 .cbp-l-caption-title {
     color: #fff;
-    font: 400 16px/20px"Open Sans", sans-serif
+    font: 400 16px/20px"Open Sans", sans-serif;
 }
 .cbp-l-caption-desc {
     color: #aaa;
     font: 400 12px/18px"Open Sans", sans-serif;
-    margin-top: 2px
+    margin-top: 2px;
 }
 .cbp-l-caption-text {
     font: 400 14px/21px"Open Sans", sans-serif;
@@ -3112,35 +3112,35 @@ textarea {
     display: inline-block;
     vertical-align: middle;
     text-align: left;
-    max-width: 100%
+    max-width: 100%;
 }
 .cbp-popup-singlePage .cbp-popup-content {
     margin-top: 145px;
     max-width: 1024px;
     vertical-align: top;
-    width: 94%
+    width: 94%;
 }
 .cbp-popup-lightbox-figure {
-    position: relative
+    position: relative;
 }
 .cbp-popup-lightbox-bottom {
     left: 0;
     position: absolute;
     top: 100%;
     width: 100%;
-    margin-top: 3px
+    margin-top: 3px;
 }
 .cbp-popup-lightbox-title {
     padding-right: 70px;
     font: 400 12px/18px"Open Sans", sans-serif;
-    color: #eee
+    color: #eee;
 }
 .cbp-popup-lightbox-counter {
     position: absolute;
     top: 0;
     right: 0;
     font: 400 12px/18px"Open Sans", sans-serif;
-    color: #eee
+    color: #eee;
 }
 .cbp-popup-lightbox-img {
     width: auto;
@@ -3148,17 +3148,17 @@ textarea {
     height: auto;
     display: block;
     margin: 40px 0 40px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .6)
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 .cbp-popup-lightbox-img[data-action] {
-    cursor: pointer
+    cursor: pointer;
 }
 .cbp-popup-lightbox-isIframe .cbp-popup-content {
-    width: 75%
+    width: 75%;
 }
 @media only screen and (max-width: 768px) {
     .cbp-popup-lightbox-isIframe .cbp-popup-content {
-        width: 95%
+        width: 95%;
     }
 }
 .cbp-popup-lightbox-isIframe .cbp-lightbox-bottom {
@@ -3349,7 +3349,7 @@ textarea {
 .cbp-popup-singlePage .cbp-popup-content .cbp-l-project-img {
     display: block;
     margin: 0 auto;
-    max-width: 100%
+    max-width: 100%;
 }
 .cbp-popup-singlePage .cbp-l-project-container {
     overflow: hidden;
@@ -3417,7 +3417,7 @@ textarea {
     color: #fff;
     float: left;
     text-decoration: none;
-    font: 400 .8em/18px sans-serif;
+    font: 400 .8em/18px"Open Sans", sans-serif;
     margin-top: 25px;
     text-transform: uppercase;
     background-color: #04c3b1;
@@ -3524,7 +3524,7 @@ textarea {
 }
 .cbp-popup-singlePageInline .cbp-popup-content {
     width: 100%;
-    min-height: 200px
+    min-height: 200px;
 }
 .cbp.cbp-popup-isOpening .cbp-popup-singlePageInline,
 .cbp.cbp-popup-isOpening {
@@ -3544,59 +3544,59 @@ textarea {
     border: medium none;
     border-radius: 0;
     -ms-filter: "alpha(opacity=100)";
-    opacity: 1
+    opacity: 1;
 }
 .cbp-popup-singlePageInline.cbp-popup-loading .cbp-popup-loadingBox {
-    visibility: visible
+    visibility: visible;
 }
 .cbp-popup-singlePageInline.cbp-popup-loading .cbp-popup-navigation,
 .cbp-popup-singlePageInline.cbp-popup-loading .cbp-popup-content {
-    visibility: hidden
+    visibility: hidden;
 }
 .cbp-l-inline {
     margin-bottom: 20px;
     overflow: hidden;
     margin-top: 10px;
     background: #fafafa;
-    padding: 30px
+    padding: 30px;
 }
 .cbp-l-inline-left {
     float: left;
-    width: 44%
+    width: 44%;
 }
 .cbp-l-project-img {
-    max-width: 100%
+    max-width: 100%;
 }
 .cbp-l-inline-right {
     float: right;
     width: 56%;
-    padding-left: inherit
+    padding-left: inherit;
 }
 @media only screen and (max-width: 768px) {
     .cbp-l-inline-left {
         width: 100%;
         text-align: center;
-        margin-top: 40px
+        margin-top: 40px;
     }
     .cbp-l-inline-right {
         width: 100%;
         padding-left: 0;
-        margin-top: 20px
+        margin-top: 20px;
     }
 }
 .cbp-l-inline-title {
     font: 400 28px/30px"Open Sans", sans-serif;
-    color: #474747
+    color: #474747;
 }
 .cbp-l-inline-subtitle {
     font: 400 13px/21px"Open Sans", sans-serif;
     color: #888;
-    margin-top: 7px
+    margin-top: 7px;
 }
 .cbp-l-inline-desc {
     font: 400 13px/20px"Open Sans", sans-serif;
     color: #474747;
-    margin-top: 25px
+    margin-top: 25px;
 }
 .cbp-l-inline-view {
     font: 400 13px/35px"Open Sans", sans-serif;
@@ -3604,13 +3604,13 @@ textarea {
     margin-top: 40px;
     display: inline-block;
     padding: 0 20px;
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
 }
 .cbp-l-inline-view:hover {
-    color: #757575
+    color: #757575;
 }
 .cbp-l-filters-button {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 .cbp-l-filters-button .cbp-filter-item {
     color: #f2f2f2;
@@ -3618,38 +3618,38 @@ textarea {
     font-size: 1.24em;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
-    margin: 10px 5px 0 0;
+    margin: 10px 5px 0px 0px;
     padding-right: 30px;
     display: inline-block;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .cbp-l-filters-button .cbp-filter-item:hover,
 .cbp-l-filters-button .cbp-filter-item:active,
 .cbp-l-filters-button .cbp-filter-item:focus {
     color: #4cd2da;
-    -webkit-transition: all .5s ease 0;
-    -moz-transition: all .5s ease 0;
-    -ms-transition: all .5s ease 0;
-    -o-transition: all .5s ease 0;
-    transition: all .5s ease 0
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
 }
 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active,
 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active:active,
 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active:focus {
-    color: #4cd2da
+    color: #4cd2da;
 }
 @media screen and (max-width: 630px) {
     .cbp-l-filters-button .cbp-filter-item {
         display: block;
-        margin-top: 34px
+        margin-top: 34px;
     }
 }
 .cbp-l-filters-dropdown {
     margin-bottom: 40px;
     height: 38px;
     position: relative;
-    z-index: 5
+    z-index: 5;
 }
 .cbp-l-filters-dropdownWrap {
     width: 200px;
