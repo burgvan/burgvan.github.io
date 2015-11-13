@@ -96,9 +96,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #4f4f4f;
 }
-body {
-    overflow: hidden;
-}
 h2 {
     font-size: 4em;
     font-family: 'Droid Sans', serif;
@@ -1520,7 +1517,12 @@ textarea {
         width: 51%;
     }
 }
+@media screen and (max-width: 843px) {
 
+    .container, .square{
+      display: none;
+    }
+}
 @media screen and (max-width: 750px) {
     h2 {
         font-size: 3.5em;
@@ -1531,9 +1533,6 @@ textarea {
     }
     #home-screen {
         position: relative;
-    }
-    .container, .square{
-      display: none;
     }
     header {
         font-size: 1.5em;
@@ -1665,6 +1664,7 @@ textarea {
     header {
         top: 50%;
     }
+
     #about,
     #resume,
     #work,
