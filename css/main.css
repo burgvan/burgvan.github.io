@@ -929,10 +929,7 @@ header p {
     width: 100%;
 }
 #content {
-    background-image: url(img/portfolio.png);
     background-color: #f2f2f2;
-    background-attachment: fixed;
-    background-position: center center;
     padding: 200px 0px 0px 0px;
     position: relative;
     overflow: hidden;
@@ -1023,10 +1020,7 @@ header p {
     width: 0px;
 }
 #content1 {
-    background-image: url(img/work.png);
     background-color: #32323c;
-    background-attachment: fixed;
-    background-position: center center;
     padding: 200px 0px 0px 0px;
     position: relative;
     overflow: hidden;
