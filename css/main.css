@@ -368,7 +368,6 @@ a:focus {
 /**COOL BACKGROUND ANIMATION**/
 
 .container {
-  position: relative;
   width: 100%;
   height: 100%;
   -webkit-animation: container 10s linear infinite;
@@ -1532,6 +1531,9 @@ textarea {
     }
     #home-screen {
         position: relative;
+    }
+    .container, .square{
+      display: none;
     }
     header {
         font-size: 1.5em;
