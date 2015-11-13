@@ -1511,7 +1511,19 @@ textarea {
         width: 51%;
     }
 }
-@media screen and (max-width: 843px) {
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    .container, .square{
+      display: none;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2){
 
     .container, .square{
       display: none;
