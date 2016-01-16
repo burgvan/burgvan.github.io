@@ -3966,62 +3966,66 @@ and (-webkit-min-device-pixel-ratio: 2){
     font: 400 .8em/18px"Open Sans", sans-serif;
     margin-top: 25px;
     text-transform: uppercase;
-    background-color: #04c3b1;
+    border: 2px solid #fff;
     padding: 8px 19px
 }
 .cbp-popup-singlePage .cbp-l-project-details-visit:hover {
-    color: #32323c;
-    opacity: .75
+    background-color: #04c3b1;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
 }
 .cbp-popup-singlePage .cbp-l-project-details-visit:focus {
-    color: #32323c;
-    opacity: .75
+    background-color: #04c3b1;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
 }
 .cbp-popup-singlePage .cbp-l-project-related-wrap {
     font-size: 0;
-    margin: 0
+    margin: 0;
 }
 .cbp-popup-singlePage .cbp-l-project-related-item {
     margin-right: 5%;
     max-width: 30%;
-    float: left
+    float: left;
 }
 .cbp-popup-singlePage .cbp-l-project-related-item:last-child {
-    margin-right: 0
+    margin-right: 0;
 }
 .cbp-popup-singlePage .cbp-l-project-related-title {
     font: 700 14px/18px"Open Sans", sans-serif;
     color: #474747;
-    margin-top: 20px
+    margin-top: 20px;
 }
 .cbp-popup-singlePage .cbp-l-project-related-link {
-    text-decoration: none
+    text-decoration: none;
 }
 .cbp-popup-singlePage .cbp-l-project-related-link:hover {
-    opacity: .9
+    opacity: .9;
 }
 .cbp-popup-singlePage .cbp-l-member-img {
     float: left;
     width: 40%;
-    margin-top: 20px
+    margin-top: 20px;
 }
 .cbp-popup-singlePage .cbp-l-member-img img {
     border: 1px solid #e2e2e2;
     width: auto;
     max-width: 100%;
     height: auto;
-    display: inline-block
+    display: inline-block;
 }
 .cbp-popup-singlePage .cbp-l-member-info {
     margin-top: 20px;
     padding-left: 25px;
     float: left;
-    width: 60%
+    width: 60%;
 }
 @media only screen and (max-width: 768px) {
     .cbp-popup-singlePage .cbp-l-member-img {
         width: 100%;
-        text-align: center
+        text-align: center;
     }
     .cbp-popup-singlePage .cbp-l-member-info {
         width: 100%;
@@ -4030,17 +4034,17 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 .cbp-popup-singlePage .cbp-l-member-name {
     font: 400 28px/28px"Open Sans", sans-serif;
-    color: #474747
+    color: #474747;
 }
 .cbp-popup-singlePage .cbp-l-member-position {
     font: 400 13px/21px"Open Sans", sans-serif;
     color: #888;
-    margin-top: 6px
+    margin-top: 6px;
 }
 .cbp-popup-singlePage .cbp-l-member-desc {
     font: 400 12px/18px"Open Sans", sans-serif;
     margin-top: 25px;
-    color: #474747
+    color: #474747;
 }
 .cbp-popup-singlePageInline {
     width: 100%;
