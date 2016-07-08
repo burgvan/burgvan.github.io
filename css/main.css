@@ -3960,7 +3960,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     min-width: 100px
 }
 .cbp-popup-singlePage .cbp-l-project-details-visit {
-    color: #fff;
+    background-color: #fff;
     float: left;
     text-decoration: none;
     font: 400 .8em/18px"Open Sans", sans-serif;
