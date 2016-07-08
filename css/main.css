@@ -3961,22 +3961,25 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 .cbp-popup-singlePage .cbp-l-project-details-visit {
     background-color: #fff;
+    color: #32323c;
     float: left;
     text-decoration: none;
     font: 700 .8em/18px"Open Sans", sans-serif;
     margin-top: 25px;
     text-transform: uppercase;
     border: 2px solid #fff;
-    padding: 8px 19px
+    padding: 8px 19px;
 }
 .cbp-popup-singlePage .cbp-l-project-details-visit:hover {
     background-color: #04c3b1;
+    color: #fff;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
 }
 .cbp-popup-singlePage .cbp-l-project-details-visit:focus {
     background-color: #04c3b1;
+    color: #fff;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
