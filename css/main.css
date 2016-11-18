@@ -3745,6 +3745,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     height: 100%
 }
 .cbp-popup-singlePage-sticky .cbp-popup-navigation-wrap {
+    position: fixed;
     top: 0 !important;
 }
 .cbp-popup-singlePage-counter {
