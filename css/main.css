@@ -1757,6 +1757,19 @@ and (-webkit-min-device-pixel-ratio: 2){
     font-family: 'Open Sans', Arial, sans-serif;
     text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
+
+@media only screen and (max-width: 780px) {
+  .ch-info h3{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 675px) {
+  .ch-info h3{
+    font-size: 22px;
+
+    }
+  }
 .ch-info p {
     color: #fff;
     padding: 10px 0px;
@@ -3995,6 +4008,41 @@ and (-webkit-min-device-pixel-ratio: 2){
 .cbp-popup-singlePage .cbp-l-project-related-item:last-child {
     margin-right: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .cbp-popup-singlePage .cbp-l-member-img {
+        width: 100%;
+        text-align: center
+    }
+    .cbp-popup-singlePage .cbp-l-member-info {
+        width: 100%;
+        padding-left: 0
+    }
+
+
+}
+@media only screen and (max-width: 675px){
+    .cbp-popup-singlePage .cbp-l-project-related-item {
+    max-width: 80%;
+    float: none;
+    margin: auto;
+    padding-top: 20px;
+    }
+    .cbp-popup-singlePage .cbp-l-project-related-item:last-child {
+      margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+  .cbp-popup-singlePage .cbp-l-project-related-item {
+    max-width: 100%;
+    float: none;
+    margin-right: 0;
+    padding-top: 20px;
+  }
+
+}
+
 .cbp-popup-singlePage .cbp-l-project-related-title {
     font: 700 14px/18px"Open Sans", sans-serif;
     color: #474747;
