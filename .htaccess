@@ -1,0 +1,7 @@
+AuthUserFile /burgvan.github.io/.htpasswds/.htpasswd
+AuthType Basic
+AuthName "My Hidden Scene Project"
+
+<Files "scene.html">
+  Require valid-user
+</Files>
