@@ -4012,11 +4012,11 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media only screen and (max-width: 768px) {
     .cbp-popup-singlePage .cbp-l-member-img {
         width: 100%;
-        text-align: center
+        text-align: center;
     }
     .cbp-popup-singlePage .cbp-l-member-info {
         width: 100%;
-        padding-left: 0
+        padding-left: 0;
     }
 
 
@@ -4026,7 +4026,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     max-width: 80%;
     float: none;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px;
     }
     .cbp-popup-singlePage .cbp-l-project-related-item:last-child {
       margin-right: auto;
@@ -4035,10 +4035,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 @media only screen and (max-width: 480px){
   .cbp-popup-singlePage .cbp-l-project-related-item {
-    max-width: 100%;
+    max-width: 90%;
     float: none;
-    margin-right: 0;
-    padding-top: 20px;
   }
 
 }
