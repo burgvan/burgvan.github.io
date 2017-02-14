@@ -102,6 +102,12 @@ h2 {
     font-weight: 700;
     margin-top: 0px;
 }
+strong{
+    display: inline-block;
+    color: #f2f2f2;
+    font-weight: 600;
+
+}
 #preloader {
     position: fixed;
     top: 0;
