@@ -3254,7 +3254,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 .cbp-popup-prev,
 .cbp-popup-close {
     padding: 0;
-    border: medium none;
+    border: none;
     position: absolute;
     cursor: pointer;
     outline: 0
