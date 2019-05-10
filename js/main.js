@@ -46,7 +46,7 @@
             else {
                 $.ajax({
                     type: 'POST',
-                    url: 'php/contact.php',
+                    url: '../php/contact.php',
                     data: {
                         name: contact_name_val,
                         email: contact_email_val,
