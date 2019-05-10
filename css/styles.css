@@ -1805,9 +1805,9 @@ footer a {
       background-size: cover; }
   .home__welcome-title {
     font-weight: 500;
-    font-size: 68px;
+    font-size: 53px;
     letter-spacing: 5.7px;
-    line-height: 96px;
+    line-height: 77px;
     text-transform: uppercase; }
   .home__welcome-content {
     font-weight: normal;
@@ -2057,7 +2057,7 @@ footer a {
       background-size: 895px 568px; }
     .home__welcome-title {
       font-weight: 500;
-      font-size: 52px;
+      font-size: 46px;
       letter-spacing: 4px;
       line-height: 64px; }
     .home__welcome-content {
