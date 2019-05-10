@@ -71,7 +71,7 @@
 
     $( document ).ready(function() {
         hasScrolled();
-        contactForm();
+        // contactForm();
 
         // menu humburger
         // $("#menu-burger").on("change", function() {
