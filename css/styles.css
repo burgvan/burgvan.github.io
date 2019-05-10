@@ -1776,7 +1776,6 @@ footer a {
     z-index: 1;
     position: relative; }
   .home__welcome-bg {
-    display: block !important;
     position: absolute;
     top: 0;
     left: 0;
