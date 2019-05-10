@@ -397,6 +397,10 @@ figcaption{
   width: 82px;
 }
 
+.skills__title{
+ font-size: 16px;
+}
+
 }
 @media (max-width:350px) {
   .nav > .nav-btn {
