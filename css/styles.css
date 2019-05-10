@@ -1566,11 +1566,14 @@ footer a {
       text-align: left;
       margin-bottom: 12px; }
     .project__client-text {
-      margin-bottom: 24px; }
+      margin-bottom: 24px;
+      font-size: 16px; }
     .project__client-info {
       margin-bottom: 8px; }
     .project__description-heading {
       margin-bottom: 12px; }
+    .project__description-text{
+      font-size: 16px; }
     .project__others {
       padding-bottom: 0; } }
 
@@ -2062,7 +2065,7 @@ footer a {
       line-height: 64px; }
     .home__welcome-content {
       font-weight: normal;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 0.35px;
       line-height: 21px;
       margin-top: 32px;
@@ -2082,7 +2085,7 @@ footer a {
       margin-bottom: 32px; }
     .home__about-content {
       font-weight: normal;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 0.35px;
       line-height: 28px;
       margin-top: 0;
@@ -2129,14 +2132,14 @@ footer a {
       margin-bottom: 32px; }
     .home__contacts-content {
       font-weight: normal;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 0.35px;
       line-height: 28px;
       margin-top: 0;
       margin-bottom: 32px; }
     .home__contacts-geo, .home__contacts-mail, .home__contacts-tel {
       font-weight: normal;
-      font-size: 14px;
+      font-size: 15px;
       letter-spacing: 0.35px;
       line-height: 28px;
       margin-bottom: 12px; }
