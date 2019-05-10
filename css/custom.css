@@ -398,7 +398,7 @@ figcaption{
 }
 
 }
-@media (max-width:375px) {
+@media (max-width:350px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;

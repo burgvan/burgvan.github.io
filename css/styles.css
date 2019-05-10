@@ -2048,7 +2048,7 @@ footer a {
     padding-top: 100px;
     padding-bottom: 48px; }
     .home__welcome-bg:before {
-      top: 20px;
+    /*  top: 20px;*/
       left: -112px;
       background-position: center;
       -webkit-background-size: 895px 568px;
