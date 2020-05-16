@@ -65,7 +65,7 @@ figure {
 h1, h2, h3, h4, h5 {
   margin: 0; }
 
-p {
+p, li {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: normal;
@@ -83,6 +83,7 @@ a {
   -o-transition: color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out; }
+
 
 ul.list {
   padding: 0;
@@ -1449,8 +1450,7 @@ footer a {
     font-size: 14px;
     letter-spacing: 0.35px;
     line-height: 28px;
-    margin-bottom: 16px;
-    list-style: none; }
+    margin-bottom: 16px; }
     .project__description-text:last-child {
       margin-bottom: 32px; }
   .project__steps {
