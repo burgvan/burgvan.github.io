@@ -209,11 +209,11 @@ a {
 
 /**** client photo on project page ****/
 .project__client-image {
-  background-color: #F3FFF1; }
+  background-color: #D3E5D0; }
 
 /**** section with form on project page ****/
 .contact-preview {
-  background-color: #F3FFF1; }
+  background-color: #D3E5D0; }
 
 /**** dots of list item ****/
 ul.list li:before {
@@ -262,7 +262,7 @@ ul.list li:before {
 
 /**** background of fields on form ****/
 .field__input, .field__textarea {
-  background-color: #F3FFF1; }
+  background-color: #D3E5D0; }
 
 /**** border of socials bar ****/
 .socials {
