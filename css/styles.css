@@ -36,7 +36,17 @@
   01. Basic Document Styles */
 /* ==================================================== */
 html {
-  height: 100%; }
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f4fff2+100 */
+background: #f4fff2; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f4fff2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f4fff2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f4fff2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4fff2',GradientType=0 ); /* IE6-9 */
+
+background-attachment: fixed;
+background-repeat:no-repeat;
+
+}
 
 body {
   font-weight: normal;
@@ -47,7 +57,8 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0; }
+  margin: 0;
+ }
   body * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1101,9 +1112,6 @@ footer a {
 
 .footer {
   height: 100px;
-  width: -webkit-calc(100% - 32px);
-  width: -moz-calc(100% - 32px);
-  width: calc(100% - 32px);
   bottom: 0;
   left: 32px;
   right: 0;
