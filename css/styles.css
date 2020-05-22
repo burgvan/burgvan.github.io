@@ -1810,6 +1810,7 @@ footer a {
       -o-background-size: cover;
       background-size: cover; }
   .home__welcome-title {
+    margin-top: -27px;
     font-weight: 500;
     font-size: 55px;
     letter-spacing: 5.7px;
@@ -1820,7 +1821,7 @@ footer a {
     font-size: 20px;
     letter-spacing: 0.4px;
     line-height: 27px;
-    margin-top: 12px; }
+    margin-top: -13px; }
 
 .home__portfolio {
   margin-top: -265px;
