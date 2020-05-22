@@ -867,7 +867,6 @@ ul.list {
   05. Buttons */
 /* ==================================================== */
 .btn {
-  font-weight: bold;
   font-size: 12px;
   letter-spacing: 1.5px;
   line-height: 32px;
@@ -875,7 +874,7 @@ ul.list {
   text-transform: uppercase;
   cursor: pointer;
   display: inline-block;
-  background-color: #0B6050;
+  background-color: #FFA348;
   padding: 8px 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -1104,10 +1103,9 @@ footer a {
   display: inline-block; }
 
 .footer {
+  width:90%;
   height: 100px;
   bottom: 0;
-  left: 32px;
-  right: 0;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -moz-box-align: end;
@@ -1119,7 +1117,11 @@ footer a {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  border-color: #5c5c5c;
+    border-top-style: solid;
+    border-width: thin;
+    margin:auto; }
   .footer__socials {
     text-align: center; }
   .footer__dash {
@@ -1158,7 +1160,7 @@ footer a {
 @media (max-width: 1023px) {
   .footer {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: auto;
     left: auto;
     right: auto;
@@ -2785,6 +2787,7 @@ footer a {
         opacity: 0.7;
         left: 20px; }
   .field__label {
+    color: #000000;
     position: absolute;
     top: 2px;
     left: 36px;
