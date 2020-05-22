@@ -1817,7 +1817,7 @@ footer a {
     text-transform: uppercase; }
   .home__welcome-content {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.4px;
     line-height: 27px;
     margin-top: 12px; }
@@ -2068,9 +2068,9 @@ footer a {
       line-height: 64px; }
     .home__welcome-content {
       font-weight: normal;
-      font-size: 16px;
+      font-size: 20px;
       letter-spacing: 0.35px;
-      line-height: 21px;
+      line-height: 27px;
       margin-top: 32px;
       margin-bottom: 0; }
   .home__portfolio {
