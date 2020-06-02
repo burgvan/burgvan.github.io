@@ -160,7 +160,8 @@ ul.list {
 
 @media (min-width: 1024px) {
   .blog, .project, .works, .article {
-    padding-bottom: 192px; } }
+    padding-bottom: 192px; } 
+  }
 
 @media (min-width: 1280px) {
   .blog, .project, .works, .article {
@@ -176,9 +177,8 @@ ul.list {
 /* ==================================================== */
 .page__title {
   font-family: "Lato", "Helvetica", "Arial", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 64px;
-  letter-spacing: 1.5px;
   line-height: 96px;
   text-transform: uppercase;
   text-align: center; }
@@ -1820,8 +1820,7 @@ footer a {
     margin-top: -20px;
     font-weight: 400;
     font-size: 64px;
-    letter-spacing: 2px;
-    line-height: 70px;
+    line-height: 76px;
     text-transform: uppercase; }
   .home__welcome-content {
     font-weight: normal;
@@ -1981,11 +1980,14 @@ footer a {
       flex: 1 0 520px;
       max-width: 520px; } }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .home__welcome {
     padding-top: 160px;
     height: auto;
     padding-bottom: 208px; }
+    .home__welcome-title{
+      font-size: 54px;
+    }
     .home__welcome-content {
       margin-top: 48px; }
     .home__welcome-bg:before {
@@ -2072,7 +2074,6 @@ footer a {
     .home__welcome-title {
       font-weight: 500;
       font-size: 46px;
-      letter-spacing: 4px;
       line-height: 64px; }
     .home__welcome-content {
       font-weight: normal;
