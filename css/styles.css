@@ -69,6 +69,7 @@ figure {
 h1, h2, h3, h4, h5 {
   margin: 0; }
 
+
 p, li {
   margin-top: 0;
   margin-bottom: 16px;
@@ -145,6 +146,10 @@ ul.list {
   .blog__title, .project__title, .works__title, .article__title {
     margin-bottom: 32px; }
 
+  .contact-preview__text{
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  }
+
 @media (min-width: 768px) {
   ul.list li {
     margin-bottom: 16px; }
@@ -170,10 +175,10 @@ ul.list {
   02. Helper classes */
 /* ==================================================== */
 .page__title {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  font-size: 74px;
-  letter-spacing: 5.1px;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 1.5px;
   line-height: 96px;
   text-transform: uppercase;
   text-align: center; }
@@ -188,7 +193,7 @@ ul.list {
 
 @media screen and (max-width: 767px) {
   .page__title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 43px;
     letter-spacing: 2.5px;
     line-height: 44px; } }
@@ -882,7 +887,9 @@ ul.list {
   -webkit-transition: color 0.3s ease-out, border-color 0.3s ease-out;
   -o-transition: color 0.3s ease-out, border-color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out, border-color 0.3s ease-out;
-  transition: color 0.3s ease-out, border-color 0.3s ease-out; }
+  transition: color 0.3s ease-out, border-color 0.3s ease-out; 
+  border-style: none;
+  }
   .btn:focus {
     outline: none; }
   .btn--reply {
@@ -1420,8 +1427,8 @@ footer a {
     margin-bottom: 12px; }
   .project__client-heading {
     text-align: center;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 24px;
     letter-spacing: 1.5px;
     line-height: 40px;
     text-transform: uppercase;
@@ -1443,7 +1450,7 @@ footer a {
     .project__link i {
       margin-right: 12px; }
   .project__description-heading {
-    font-weight: normal;
+    font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.45px;
     line-height: 28px;
@@ -1500,8 +1507,8 @@ footer a {
     margin-right: 60px; }
   .project__client-heading {
     text-align: left;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 24px;
     letter-spacing: 1.5px;
     line-height: 40px;
     margin-bottom: 12px; }
@@ -1514,7 +1521,7 @@ footer a {
   .project__client-info {
     margin-bottom: 24px; }
   .project__description-heading {
-    font-weight: normal;
+    font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.45px;
     line-height: 32px;
@@ -1610,8 +1617,8 @@ footer a {
     margin-right: 88px;
     margin-bottom: 88px; }
   .project__client-heading {
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 24px;
     letter-spacing: 1.5px;
     line-height: 40px;
     margin-bottom: 16px; }
@@ -1810,11 +1817,11 @@ footer a {
       -o-background-size: cover;
       background-size: cover; }
   .home__welcome-title {
-    margin-top: -27px;
-    font-weight: 500;
-    font-size: 55px;
-    letter-spacing: 5.7px;
-    line-height: 77px;
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2px;
+    line-height: 70px;
     text-transform: uppercase; }
   .home__welcome-content {
     font-weight: normal;
@@ -1834,8 +1841,8 @@ footer a {
   margin-bottom: 185px; }
   .home__about-title {
     font-weight: 500;
-    font-size: 74px;
-    letter-spacing: 5.7px;
+    font-size: 58px;
+    letter-spacing: 2px;
     line-height: 96px;
     text-transform: uppercase;
     margin-top: -14px; }
@@ -1930,7 +1937,7 @@ footer a {
   margin-bottom: 192px; }
   .home__contacts-title {
     font-weight: 500;
-    font-size: 74px;
+    font-size: 58px;
     letter-spacing: 5.7px;
     line-height: 96px;
     text-transform: uppercase;

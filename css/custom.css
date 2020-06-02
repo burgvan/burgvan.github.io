@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Istok+Web");
 /**** main titles on home page ****/
 .home__welcome-title, .home__about-title, .home__blog-title, .home__contacts-title, .works__title, .project__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
   color: #03c1b1; }
 
 .home__welcome-title{
@@ -20,47 +20,47 @@
 
 /**** label and count in comments ****/
 .comments__label, .comments__count {
-  font-family: "Oswald", sans-serif; }
+font-family: "Lato", "Helvetica", "Arial", sans-serif; }
 
 /**** links in header ****/
 .header a {
-  font-family: "Oswald", sans-serif; }
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
 
 /**** title of skills section on home page ****/
 .home__about-skills-title {
-  font-family: "Oswald", sans-serif; }
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
 
 /**** headings in information about client on project page ****/
 .project__client-heading {
-  font-family: "Oswald", sans-serif; }
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
 
 /**** social links ****/
 .socials__link {
-  font-family: "Oswald", sans-serif; }
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
 
 /**** text in buttons ****/
 .btn {
-  font-family: "Oswald", sans-serif; }
+font-family: "Lato", "Helvetica", "Arial", sans-serif; }
 
 /**** any text ****/
 body, p, li {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Merriweather", "Times", serif; }
 
 /**** item of list ****/
 ul.list li {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Merriweather", "Times", serif; }
 
 /**** title and date in preview of blog on home page ****/
 .home__blog-preview-title, .home__blog-preview-date {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** title and date of article on blog page ****/
 .blog__item-title, .blog__item-date {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** links, headings and text on project page ****/
 .project__description-heading, .project__steps-heading {
-  font-family: "Istok Web", sans-serif; 
+ font-family: "Lato", "Helvetica", "Arial", sans-serif;
   margin-top: 30px; }
 
 .date{
@@ -69,52 +69,56 @@ ul.list li {
 }
 
 .project__client-text, .project__description-text, .reports {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Merriweather", "Times", serif; }
 
 .project__link {
-  font-family: "Istok Web", sans-serif; }
+ font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** blockquote, text, headings, date, count of comments under main title on article page ****/
 .article__heading, .article__date, .article__stat {
-  font-family: "Istok Web", sans-serif; }
+ font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 .article__text p {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 .article__quote blockquote {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** text and authors name of comment ****/
 .comment__author, .comment__text {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** content and contact texts on home page ****/
-.home__welcome-content, .home__about-content, .home__contacts-content {
-  font-family: "Istok Web", sans-serif; }
+.home__welcome-content, .home__contacts-content {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 .home__welcome-content{
   color: #ffffff;
 }
 
+.home__about-content {
+  font-family: "Merriweather", "Times", serif;
+}
+
 .home__contacts-geo, .home__contacts-mail, .home__contacts-contacts {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 .home__blog-preview-text {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** name of project in portfolio grid ****/
 .portfolio__title {
-  font-family: "Istok Web", sans-serif;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
   color: #ffffff;
   }
 
 /**** title and value of skill in about section of home page ****/
 .skills__title, .skills__value {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** pagination ****/
 .pagination__item {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
 
 /**** FONT COLORS ****/
 /**** Colors of text and titles ****/
@@ -125,13 +129,13 @@ h1, h2 {
   color: #414141; }
 
 h3 {
-  color: #414141; }
+  color: #03c1b1; }
 
 h4 {
   color: #414141; }
 
 h5 {
-  color: #414141; }
+  color: #03c1b1; }
 
 p, small {
   color: #414141; }
@@ -329,7 +333,7 @@ figcaption{
   padding: 29px 28px 13px 10px;
   text-decoration: none;
   color: #414141;
-  font-family: "Oswald", sans-serif;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
 
 }
 
