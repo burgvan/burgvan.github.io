@@ -1817,17 +1817,17 @@ footer a {
       -o-background-size: cover;
       background-size: cover; }
   .home__welcome-title {
-    margin-top: -20px;
+    margin-top: -42px;
     font-weight: 400;
     font-size: 64px;
-    line-height: 76px;
+    line-height: 72px;
     text-transform: uppercase; }
   .home__welcome-content {
     font-weight: normal;
     font-size: 20px;
     letter-spacing: 0.4px;
     line-height: 27px;
-    margin-top: -13px; }
+    margin-top: -34px; }
 
 .home__portfolio {
   margin-top: -265px;
@@ -1855,8 +1855,8 @@ footer a {
   .home__about-figure {
     margin-top: 119px; }
   .home__about-skills-title {
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 24px;
     letter-spacing: 1.5px;
     line-height: 40px;
     text-transform: uppercase;
@@ -1988,8 +1988,9 @@ footer a {
     .home__welcome-title{
       font-size: 54px;
     }
-    .home__welcome-content {
-      margin-top: 48px; }
+      .home__welcome-content{
+    margin-top:-30px;
+  }
     .home__welcome-bg:before {
       height: 100%; }
   .home__about {
@@ -2059,7 +2060,14 @@ footer a {
     .home__contacts-tel {
       margin-bottom: 32px; } }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
+  .home__welcome-content{
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
   .home__welcome {
     padding-top: 100px;
     padding-bottom: 48px; }
@@ -2080,7 +2088,7 @@ footer a {
       font-size: 20px;
       letter-spacing: 0.35px;
       line-height: 27px;
-      margin-top: 32px;
+      margin-top: 48px;
       margin-bottom: 0; }
   .home__portfolio {
     margin-top: 0;
