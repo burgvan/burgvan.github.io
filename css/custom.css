@@ -97,7 +97,8 @@ ul.list li {
 }
 
 .home__about-content {
-  font-family: "Merriweather", "Times", serif;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
 }
 
 .home__contacts-geo, .home__contacts-mail, .home__contacts-contacts {
