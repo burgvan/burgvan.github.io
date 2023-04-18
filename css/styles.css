@@ -874,13 +874,14 @@ ul.list {
 /* ==================================================== */
 .btn {
   font-size: 12px;
+  font-weight: bolder;
   letter-spacing: 1.5px;
   line-height: 32px;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
   display: inline-block;
-  background-color: #FFA348;
+  background-color: #EB5D7D;
   padding: 8px 20px;
   text-transform: uppercase;
   text-decoration: none;
