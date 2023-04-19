@@ -232,7 +232,7 @@ ul.list li:before {
 .btn {
    }
   .btn:hover {
-    background-color: #FFB265;
+    background-color: #E4537D;
     color: #414141;
   transition: all 0.3s ease;
 }

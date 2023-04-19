@@ -885,7 +885,7 @@ ul.list {
   padding: 8px 20px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   -webkit-transition: color 0.3s ease-out, border-color 0.3s ease-out;
   -o-transition: color 0.3s ease-out, border-color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out, border-color 0.3s ease-out;
