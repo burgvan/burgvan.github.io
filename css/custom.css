@@ -233,7 +233,6 @@ ul.list li:before {
    }
   .btn:hover {
     background-color: #E4537D;
-    color: #414141;
   transition: all 0.3s ease;
 }
 
