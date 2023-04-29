@@ -159,8 +159,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
 /**** Colors of links on pages ****/
 a {
   color: #414141; }
-  a:hover {
-    color: #03C1B9; }
 
 /**** Colors of links in header navigation ****/
 .header__nav-link {
