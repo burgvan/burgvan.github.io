@@ -2663,13 +2663,7 @@ footer a {
     white-space: nowrap;
     display: block; }
 
-@media only screen and (min-width: 1280px) {
-  .portfolio {
-    width: 1205px;
-    margin: auto !important;
-    
-  }
-}
+
 
 @media only screen and (min-width: 768px) {
   .portfolio {
