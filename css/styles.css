@@ -561,7 +561,7 @@ ul.list {
     flex-basis: 100%;
     max-width: 100%; }
   .col--md-offset-0 {
-    margin-left: 0; }
+    margin: o auto; }
   .col--md-offset-1 {
     margin-left: 8.33333333%; }
   .col--md-offset-2 {
